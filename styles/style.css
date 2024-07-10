@@ -194,8 +194,8 @@ background-color: rgba(255, 223, 0, 0.05);
     width: 1140px;
     height: 313px;
     background-repeat: no-repeat;
-    text-align: center;
-    padding: 64px 48px ;
+    /* text-align: center; */
+    padding: 64px 38px ;
     margin-left: 145px;
     margin-right: 75px;
     margin-top: 75px;
@@ -203,9 +203,8 @@ background-color: rgba(255, 223, 0, 0.05);
 .fotter h4{
     color: rgb(255, 255, 255);
     font-size: 32px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0%;
+    font-weight: 600;
+    line-height: 26px;
     text-align: center;
 }
 .fotter p{
@@ -213,6 +212,37 @@ background-color: rgba(255, 223, 0, 0.05);
 font-size: 16px;
 font-weight: 300;
 letter-spacing: 0%;
-text-align: left;
+text-align: center;
 padding-right: 35px;
+}
+.inputs{
+    width: 548px;
+    height: 55px;
+    /* padding: 19px 20px 19px 20px; */
+    align-items: center;
+    margin-left: 200px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: rgb(255, 255, 255);
+}
+.btns{
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+.footlists{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    padding: 0 350px 0 150px;
+    margin-right: 300px;
+}
+
+.images{
+    width: 260px;
+    height: 260px;
 }
