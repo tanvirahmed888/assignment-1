@@ -64,9 +64,6 @@ ul li{
     display: flex;
 }
 .list1 div {
-    /* text-align: left; */
-    /* width: 477px; */
-    /* height: 140px; */
     position: static;
     width: 646px;
     height: 236px;
@@ -74,15 +71,12 @@ ul li{
     padding: 58px;
 }
 .list1 div h3 {
-    /* color: red; */
+
     font-size: 24px;
     font-weight: 700;
-    /* line-height: 36px; */
-    /* letter-spacing: 0%; */
     text-align: left;
 }
 .list1 div p{
-    /* color: red; */
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -94,7 +88,7 @@ ul li{
 }
 .list2 div{
 
-    position: static;
+position: static;
 width: 546px;
 height: 336px;
 margin-top: 20px;
@@ -102,8 +96,8 @@ padding: 48px;
 
 }
 .list3 div {
-    position: static;
-width: 646px;
+position: static;
+width: 546px;
 height: 236px;
 margin-top: 20px;
 padding: 48px;
@@ -127,7 +121,6 @@ padding: 48px;
 .content2 h3{
     font-size: 32px;
     font-weight: 800;
-    /* line-height: 37px; */
 }
 .content2 p{
    
@@ -169,8 +162,6 @@ padding: 48px;
     width: 364px;
     height: 299px;
     margin-top: 48px;
-    /* margin-left: 24px; */
-    /* margin-right: 34px; */
 }
 .skill-title{
     width: 284px;
@@ -194,7 +185,6 @@ background-color: rgba(255, 223, 0, 0.05);
     width: 1140px;
     height: 313px;
     background-repeat: no-repeat;
-    /* text-align: center; */
     padding: 64px 38px ;
     margin-left: 145px;
     margin-right: 75px;
@@ -206,6 +196,7 @@ background-color: rgba(255, 223, 0, 0.05);
     font-weight: 600;
     line-height: 26px;
     text-align: center;
+    margin-bottom: 30px;
 }
 .fotter p{
     color: rgb(255, 255, 255);
@@ -218,7 +209,6 @@ padding-right: 35px;
 .inputs{
     width: 548px;
     height: 55px;
-    /* padding: 19px 20px 19px 20px; */
     align-items: center;
     margin-left: 200px;
     border-radius: 8px;
@@ -229,17 +219,29 @@ padding-right: 35px;
 .btns{
     width: 120px;
     height: 57px;
-    padding: 17px 20px 17px 20px;
+    padding: 15px 20px 17px 20px;
     border-radius: 8px;
-
-background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 5px;
+    margin-top: 10px;
 }
+.btnl{
+    width: 149px;
+    height: 57px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 17px 20px 17px 20px;
+    line-height: 23px;
+}
+
 .footlists{
     display: flex;
     justify-content: space-between;
     max-width: 1140px;
-    padding: 0 350px 0 150px;
-    margin-right: 300px;
+    padding: 0 150px 0 150px;
+    margin-right: 5px;
 }
 
 .images{
